@@ -36,6 +36,7 @@ export default {
   emits: ['click'],
 
   setup(props, { emit }) {
+    // eslint-disable-next-line no-param-reassign
     props = reactive(props);
     return {
       classes: computed(() => ({
