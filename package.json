@@ -44,5 +44,8 @@
     "vue-loader": "^16.8.3",
     "vuetify": "^3.0.7"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
+    "pinia": "^2.0.28"
+  }
 }

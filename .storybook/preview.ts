@@ -1,5 +1,6 @@
 import { app } from '@storybook/vue3'
 import { createVuetify } from 'vuetify'
+import { createPinia } from 'pinia'
 
 import '@mdi/font/css/materialdesignicons.css'
 import 'vuetify/styles'
@@ -28,8 +29,12 @@ const vuetify = createVuetify({
 })
 app.use(vuetify)
 
+const pinia = createPinia();
+
+app.use(pinia)
 
 import '../src/assets/sass/app.scss'
+import { create } from 'lodash'
 
 // export const parameters = {
 //   actions: { argTypesRegex: "^on[A-Z].*" },
