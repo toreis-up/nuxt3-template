@@ -20,7 +20,7 @@
     "@storybook/addon-essentials": "^6.5.15",
     "@storybook/addon-interactions": "^6.5.15",
     "@storybook/addon-knobs": "^6.4.0",
-    "@storybook/addon-links": "6.5.15",
+    "@storybook/addon-links": "6.5.16",
     "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addon-viewport": "^6.5.15",
     "@storybook/builder-vite": "^0.3.0",
