@@ -1180,9 +1180,9 @@
   integrity sha512-dtqFyoJBHUxGi9zPZdpCKP1xk8tq6KPHJ/NY4qWXiYo6IcSGwzk3L8x2XzZbbyOyBs9xQARoGveU2AsgLj6D2A==
 
 "@csstools/selector-specificity@^2.0.0":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.1.1.tgz#c9c61d9fe5ca5ac664e1153bb0aa0eba1c6d6308"
-  integrity sha512-jwx+WCqszn53YHOfvFMJJRd/B2GqkCBt+1MJSG6o5/s8+ytHMvDZXsJgUEWLk12UnLd7HYKac4BYU5i/Ron1Cw==
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@csstools/selector-specificity/-/selector-specificity-2.2.0.tgz#2cbcf822bf3764c9658c4d2e568bd0c0cb748016"
+  integrity sha512-+OJ9konv95ClSTOJCmMZqpd5+YGsB2S+x6w3E1oaM8UuR5j8nTNHYSz8c9BEPGDOCMQYIEEGlVPj/VY64iTbGw==
 
 "@design-systems/utils@2.12.0":
   version "2.12.0"
@@ -2077,25 +2077,30 @@
     local-pkg "^0.4.2"
 
 "@nuxtjs/tailwindcss@^6.2.0":
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.6.0.tgz#e3fb3d477f25b00d416d151822bd835d46d9afab"
-  integrity sha512-lzUicI2LM6gCbgTkdOJN4HSOXNCWi+fosKzBnB2Z/M+sJxSHDXV1OosuQkDDJEzyJUtzTU0tvk1I7ij20JZVOw==
+  version "6.6.4"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/tailwindcss/-/tailwindcss-6.6.4.tgz#4d32fc6b94db609c44a873249e3d881179027f65"
+  integrity sha512-Lpgb1EmbHP6URHpi5D373BoNHBnODfnSstZk88SfrJ0r94r4jUaixtmSwLj9ot0wpO3Adz85RIg468/sCc4nAw==
   dependencies:
     "@nuxt/kit" "^3.3.1"
     "@nuxt/postcss8" "^1.1.3"
     autoprefixer "^10.4.14"
-    chalk "^5.2.0"
     chokidar "^3.5.3"
     clear-module "^4.1.2"
-    consola "^2.15.3"
+    colorette "^2.0.19"
+    cookie-es "^0.5.0"
     defu "^6.1.2"
+    destr "^1.2.2"
+    h3 "^1.6.2"
+    iron-webcrypto "^0.6.0"
     pathe "^1.1.0"
     postcss "^8.4.21"
     postcss-custom-properties "^13.1.4"
     postcss-nesting "^11.2.1"
+    radix3 "^1.0.0"
     tailwind-config-viewer "^1.7.2"
     tailwindcss "^3.2.7"
     ufo "^1.1.1"
+    uncrypto "^0.1.2"
 
 "@pinia/nuxt@^0.4.6":
   version "0.4.7"
@@ -5286,7 +5291,7 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001449, caniuse-lite@^1.0.30001464:
+caniuse-lite@^1.0.0:
   version "1.0.30001468"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001468.tgz#0101837c6a4e38e6331104c33dcfb3bdf367a4b7"
   integrity sha512-zgAo8D5kbOyUcRAgSmgyuvBkjrGk5CGYG5TYgFdpQv+ywcyEpo1LOWoG8YmoflGnh+V+UsNuKYedsoYs0hzV5A==
@@ -5295,6 +5300,11 @@ caniuse-lite@^1.0.30001109:
   version "1.0.30001467"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001467.tgz#1afc9c16ed61f50dd87139da87ca43a3e0051c77"
   integrity sha512-cEdN/5e+RPikvl9AHm4uuLXxeCNq8rFsQ+lPHTfe/OtypP3WwnVVbjn+6uBV7PaFL6xUFzTh+sSCOz1rKhcO+Q==
+
+caniuse-lite@^1.0.30001449, caniuse-lite@^1.0.30001464:
+  version "1.0.30001469"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001469.tgz#3dd505430c8522fdc9f94b4a19518e330f5c945a"
+  integrity sha512-Rcp7221ScNqQPP3W+lVOYDyjdR6dC+neEQCttoNr5bAyz54AboB4iwpnWgyi8P4YUsPybVzT4LgWiBbI3drL4g==
 
 capture-exit@^2.0.0:
   version "2.0.0"
@@ -6547,9 +6557,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 electron-to-chromium@^1.4.284:
-  version "1.4.333"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.333.tgz#ebb21f860f8a29923717b06ec0cb54e77ed34c04"
-  integrity sha512-YyE8+GKyGtPEP1/kpvqsdhD6rA/TP1DUFDN4uiU/YI52NzDxmwHkEb3qjId8hLBa5siJvG0sfC3O66501jMruQ==
+  version "1.4.334"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.334.tgz#eacdcb1145534202d569610c5915b63a3fec0eb9"
+  integrity sha512-laZ1odk+TRen6q0GeyQx/JEkpD3iSZT7ewopCpKqg9bTjP1l8XRfU3Bg20CFjNPZkp5+NDBl3iqd4o/kPO+Vew==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -8198,7 +8208,7 @@ gzip-size@^7.0.0:
   dependencies:
     duplexer "^0.1.2"
 
-h3@^1.5.0, h3@^1.6.0:
+h3@^1.5.0, h3@^1.6.0, h3@^1.6.2:
   version "1.6.2"
   resolved "https://registry.yarnpkg.com/h3/-/h3-1.6.2.tgz#40177d886acf585a275098601d05cefd628238b7"
   integrity sha512-1v/clj/qCzWbuiG+DbpViuOVO789sEYNjlwRjekkmyLGsezIJk30gazbnjcWvF8L/ffUdRz2SwxE5HNgNx+Yjg==
