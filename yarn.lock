@@ -2142,19 +2142,19 @@
     rimraf "^3.0.2"
 
 "@nuxt/config@^2.15.8":
-  version "2.16.3"
-  resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.16.3.tgz#88addc90535a120ed32ef53f4c2a1cb09a662809"
-  integrity sha512-hBvr5/b5CS6UdXPgB8q/jvQHS0Bprf+b0hknL6ks4EkxhtNKM1Et3a0s3V3Gh/odLkkJ9yrtihFF+CymzBm6ew==
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/config/-/config-2.17.0.tgz#fb2acbefbb5348cdfc58dc80a372c5b16e6c7ab1"
+  integrity sha512-KJWpFFs4nMpmGzkaRZJIWbDDQjrwwYPBGaKnjWyywfSBdM+9BXk27dxLG11EIVHDTn1P94nDTpu9qZywTi1OBQ==
   dependencies:
-    "@nuxt/utils" "2.16.3"
-    consola "^2.15.3"
+    "@nuxt/utils" "2.17.0"
+    consola "^3.1.0"
     defu "^6.1.2"
     destr "^1.2.2"
-    dotenv "^16.0.3"
+    dotenv "^16.1.4"
     lodash "^4.17.21"
-    rc9 "^2.0.1"
-    std-env "^3.3.2"
-    ufo "^1.1.1"
+    rc9 "^2.1.0"
+    std-env "^3.3.3"
+    ufo "^1.1.2"
 
 "@nuxt/devalue@^2.0.2":
   version "2.0.2"
@@ -2283,23 +2283,23 @@
   resolved "https://registry.yarnpkg.com/@nuxt/ui-templates/-/ui-templates-1.1.1.tgz#db3539e3c9391c217510def5242cf74739e685ea"
   integrity sha512-PjVETP7+iZXAs5Q8O4ivl4t6qjWZMZqwiTVogUXHoHGZZcw7GZW3u3tzfYfE1HbzyYJfr236IXqQ02MeR8Fz2w==
 
-"@nuxt/utils@2.16.3":
-  version "2.16.3"
-  resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.16.3.tgz#2cac10aed3c58cb2531d7dd72086e109e087c375"
-  integrity sha512-M0W1v4gZDMXyt1MnCoDijIvoV7Xu8NwdbHqWB9gyxIGvoycjNmWWu6yT4LkymZx2c2JUxWTVp6VoUKUWW5P46Q==
+"@nuxt/utils@2.17.0":
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@nuxt/utils/-/utils-2.17.0.tgz#0e671fc59ebb2bfd9d50ca847c05284e41caf6b5"
+  integrity sha512-woL81udNtO3LWtpnmmkz5iFjhnKyG5NUA9qlBkz5ZoibxCnyByQFRllTn93zx3WhW7SSezJ1FKu5Dd3Nv7Rnkw==
   dependencies:
-    consola "^2.15.3"
+    consola "^3.1.0"
     create-require "^1.1.1"
     fs-extra "^10.1.0"
     hash-sum "^2.0.0"
     jiti "^1.18.2"
     lodash "^4.17.21"
     proper-lockfile "^4.1.2"
-    semver "^7.3.8"
+    semver "^7.5.1"
     serialize-javascript "^6.0.1"
-    signal-exit "^3.0.7"
-    ua-parser-js "^1.0.34"
-    ufo "^1.1.1"
+    signal-exit "^4.0.2"
+    ua-parser-js "^1.0.35"
+    ufo "^1.1.2"
 
 "@nuxt/vite-builder@3.5.3":
   version "3.5.3"
@@ -6261,11 +6261,6 @@ confusing-browser-globals@^1.0.10:
   resolved "https://registry.yarnpkg.com/confusing-browser-globals/-/confusing-browser-globals-1.0.11.tgz#ae40e9b57cdd3915408a2805ebd3a5585608dc81"
   integrity sha512-JsPKdmh8ZkmnHxDk55FZ1TqVLvEQTvoByJZRN9jzI0UjxK/QgAmsphz7PGtqgPieQZ/CQcHWXCR7ATDNhGe+YA==
 
-consola@^2.15.3:
-  version "2.15.3"
-  resolved "https://registry.yarnpkg.com/consola/-/consola-2.15.3.tgz#2e11f98d6a4be71ff72e0bdf07bd23e12cb61550"
-  integrity sha512-9vAdYbHj6x2fLKC4+oPH0kFzY/orMZyG2Aj+kNylHxKGJ/Ed4dpNyAQYwJOdqO4zdM7XpVHmyejQDcQHrnuXbw==
-
 consola@^3.0.1, consola@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/consola/-/consola-3.1.0.tgz#dfdfa62ceb68bc1f06e4a76ad688566bd8813baf"
@@ -7092,7 +7087,7 @@ dotenv-expand@^5.1.0:
   resolved "https://registry.yarnpkg.com/dotenv-expand/-/dotenv-expand-5.1.0.tgz#3fbaf020bfd794884072ea26b1e9791d45a629f0"
   integrity sha512-YXQl1DSa4/PQyRfgrv6aoNjhasp/p4qs9FjJ4q4cQk+8m4r6k4ZSiEyytKG8f8W9gi8WsQtIObNmKd+tMzNTmA==
 
-dotenv@^16.0.3:
+dotenv@^16.0.3, dotenv@^16.1.4:
   version "16.1.4"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.1.4.tgz#67ac1a10cd9c25f5ba604e4e08bc77c0ebe0ca8c"
   integrity sha512-m55RtE8AsPeJBpOIFKihEmqUcoVncQIwo7x9U8ZwLEZw9ZpXboz2c+rvog+jUaJvVrZ5kBOeYQBX5+8Aa/OZQw==
@@ -13188,7 +13183,7 @@ raw-loader@^4.0.2:
     loader-utils "^2.0.0"
     schema-utils "^3.0.0"
 
-rc9@^2.0.1, rc9@^2.1.0:
+rc9@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/rc9/-/rc9-2.1.0.tgz#57d3a01e55907393ef9bd0cc29f2bd66a6cd0972"
   integrity sha512-ROO9bv8PPqngWKoiUZU3JDQ4sugpdRs9DfwHnzDSxK25XtQn6BEHL6EOd/OtKuDT2qodrtNR+0WkPT6l0jxH5Q==
@@ -14122,6 +14117,11 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.3, signal-exit@^3.0.7:
   version "3.0.7"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
+
+signal-exit@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-4.0.2.tgz#ff55bb1d9ff2114c13b400688fa544ac63c36967"
+  integrity sha512-MY2/qGx4enyjprQnFaZsHib3Yadh3IXyV2C321GY0pjGfVBu4un0uDJkwgdxqO+Rdx8JMT8IfJIRwbYVz3Ob3Q==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
@@ -15200,10 +15200,10 @@ typescript@^4.9.4:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.5.tgz#095979f9bcc0d09da324d58d03ce8f8374cbe65a"
   integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
 
-ua-parser-js@^1.0.34:
-  version "1.0.34"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.34.tgz#b33f41c415325839f354005d25a2f588be296976"
-  integrity sha512-K9mwJm/DaB6mRLZfw6q8IMXipcrmuT6yfhYmwhAkuh+81sChuYstYA+znlgaflUPaYUa3odxKPKGw6Vw/lANew==
+ua-parser-js@^1.0.35:
+  version "1.0.35"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.35.tgz#c4ef44343bc3db0a3cbefdf21822f1b1fc1ab011"
+  integrity sha512-fKnGuqmTBnIE+/KXSzCn4db8RTigUzw1AN0DmdU6hJovUTbYJKyqj+8Mt1c4VfRDnOVJnENmfYkIPZ946UrSAA==
 
 ufo@^1.1.1, ufo@^1.1.2:
   version "1.1.2"
