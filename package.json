@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.20.12",
-    "@pinia/nuxt": "^0.7.0",
+    "@pinia/nuxt": "^0.8.0",
     "nuxt": "^3.0.0",
     "pinia": "^2.0.28",
     "typescript": "^4.9.4",
