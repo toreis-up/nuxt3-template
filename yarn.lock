@@ -17720,9 +17720,9 @@ vue@^3.3.4:
     "@vue/shared" "3.3.4"
 
 vuetify@^3.0.7:
-  version "3.8.8"
-  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.8.8.tgz#3e230f39508ac88d5f30fb2b410800f89de25b16"
-  integrity sha512-EPFynvxh72PBgUVZnGpfYfGluz8dz/tXM1OzjszFOK7ywqS+bAm8K9jJq0MIlAG8HKE7gBFQwCJGkzIyuUDipA==
+  version "3.8.9"
+  resolved "https://registry.yarnpkg.com/vuetify/-/vuetify-3.8.9.tgz#cc31bd2bf8695ac4788316c449ff67fac68a1f35"
+  integrity sha512-X9kCxeqf7w5sca2Mfn4NCVsDDimi81jxKyqsZHjW0XG/rTdtwRFKttxOcv0Mmi+67ulPjDZywA7pBFK0rxoafA==
 
 walker@^1.0.7, walker@~1.0.5:
   version "1.0.8"
